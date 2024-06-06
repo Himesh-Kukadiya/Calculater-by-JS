@@ -1,0 +1,19 @@
+.animatedSection > div:hover {
+    box-shadow: 0px 0px 20px #EEEEEE;
+}
+
+.animatedSection{
+    /* transform: translateX(-600px); */
+    transform: scale(0.75);
+    opacity: 0;
+}
+
+/* section:nth-of-type(even) {
+    transform: translateX(600px)
+} */
+
+.Active {
+    /* transform: translateX(0) !important; */
+    transform: scale(1);
+    opacity: 1;
+}
